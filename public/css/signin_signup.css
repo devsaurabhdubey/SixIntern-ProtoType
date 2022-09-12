@@ -1,0 +1,200 @@
+* { 
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+}
+
+body {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	max-height: fit-content;
+	margin: 0;
+}
+
+.container {
+	position: absolute;
+	top: 50px;
+	background-color: #fff;
+	border-radius: 5px;
+	padding: 0;
+	box-shadow: 0 0px 10px rgba(53, 38, 138, 0.2);
+	overflow: hidden;
+	width: 400px;
+	max-width: 100%;
+}
+
+.header {
+	border-bottom: 1px solid #f0f0f0;
+	background-color: #35268A;
+	padding: 20px 40px;
+}
+
+.header h2 {
+	margin: 0;
+	color:white;
+}
+
+.back-arrow{
+	position: relative;
+	top:3rem;
+	right: 15rem;
+	font-size: 1.5rem;
+}
+
+.back-arrow a{
+	color: #35268A;
+}
+
+.back-arrow a:hover{
+	color: rgb(39, 28, 100);
+}
+
+
+.form {
+	padding: 30px 40px;	
+}
+
+.form-control {
+	margin-bottom: 4rem;
+	border: none;
+	padding-bottom: 20px;
+	position: relative;
+}
+
+.form-control label {
+	display: inline-block;
+	margin-bottom: 5px;
+	color: #35268A;
+}
+
+.form-control input {
+	border: 2px solid #f0f0f0;
+	border-radius: 4px;
+	display: block;
+	font-family: inherit;
+	font-size: 14px;
+	padding: 10px;
+	width: 100%;
+}
+
+.form-control input:focus {
+	outline: 0;
+	box-shadow: 0 0 10px rgba(53, 38, 138, 0.16);
+	border-color: #35268A;
+}
+
+.form-control.success input {
+	border-color: #2ecc71;
+}
+
+.form-control.error input {
+	border-color: #e74c3c;
+}
+
+.form-control i {
+	visibility: hidden;
+	position: absolute;
+	top: 50px;
+	right: 20px;
+}
+
+.form-control.success i.fa-check-circle {
+	color: #2ecc71;
+	visibility: visible;
+}
+
+.form-control.error i.fa-exclamation-circle {
+	color: #e74c3c;
+	visibility: visible;
+}
+
+.form-control small {
+	color: #e74c3c;
+	position: absolute;
+	top:5rem;
+	left: 13px;
+	visibility: hidden;
+}
+
+.form-control.error small {
+	visibility: visible;
+}
+
+.form button {
+	display: block;
+	font-family: inherit;
+	background-color: #35268A;
+	border: none;
+	border-radius: 4px;
+	color: #fff;
+	font-size: 16px;
+	padding: 10px;
+	margin-top: 4rem;
+	width: 100%;
+}
+
+.form p {
+	margin-top: 20px;
+	font-size: 14px;
+}
+
+
+/* For Login */
+
+.login-h2{
+	display: block;
+	color:white;
+	text-align: center;
+}
+
+.login-p{
+	display: block;
+	color: white;
+	font-weight: 400;
+	margin-top: 10px;
+	margin-bottom: -10px;
+	text-align: center;
+}
+
+
+/* Sepractor */
+
+.separator {
+    display: flex;
+    align-items: center;
+	text-align: center;
+	margin-top: -30px;
+}
+.separator::before, .separator::after {
+    content: '';
+    flex: 1;
+	border-bottom: 1px solid #000;
+	margin: 0 40px;
+	opacity: 0.2;
+}
+.separator::before {
+    margin-right: .25em;
+}
+.separator::after {
+    margin-left: .25em;
+}
+
+/* Google Signin */
+.google-signin{
+	padding: 10px;
+	border-radius: 7px;
+	color: #35268A;
+	font-size: 20px;
+	margin: 20px 40px 20px 40px;
+	border: 2px solid;
+	display: block;
+	text-align: center;
+}
+
+.google-signin:hover{
+	background-color: #35268A;
+	color: white;
+	text-decoration: none;
+}

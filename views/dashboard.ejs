@@ -1,0 +1,129 @@
+<%- include('partials/header'); -%>
+
+<body>
+    <!-- Custom StyleSheet -->
+    <link rel="stylesheet" href="css/dashboard.css">
+    <section id="sideMenu">
+        <nav>
+            <h1>Sixinterns</h1>
+            <p>Never work for free</p>
+            <hr>
+            <a href="#" class="active"><i class="fas fa-home"></i>Home</a>
+            <a href="#" class=""><i class="fas fa-file-alt"></i>Applied Jobs</a>
+            <a href="#" class=""><i class="fas fa-check-circle"></i>Selected Jobs</a>
+            <a href="#" class=""><i class="fas fa-user"></i>Profile</a>
+            <a href="/logout" class=""><i class="fas fa-sign-out-alt"></i>Logout</a>
+        </nav>
+    </section>
+
+    <section id='home' class=''>
+        <div class="heading">
+            <h1>Welcome User</h1>
+            <p>Find your perfect job in just few clicks.</p>
+        </div>
+        <div class="intern-nav">
+            <a href="#" class="job-active">Internships</a>
+            <a href="#" class="">Part Time Jobs</a>
+            <a href="#" class="">Full Time Jobs</a>
+            <a href="#" class="">Quick Money</a>
+            <hr>
+        </div>
+
+        <!-- Internships -->
+        <div id="internships" class="">
+            <div class="container">
+                <div class="col-md-4 col-sm-6 items">
+                    <a href="">
+                        <figure><img src="swiggy.png" alt="zomato"></figure>
+                        <h1>Data Analysis For Swiggy</h1>
+                        <h6>Earn Upto 500Rs to 2000Rs</h6>
+                        <p><i class="far fa-calendar-alt"></i>&nbsp;1-2 Weeks</p>
+                        <p><i class="fas fa-map-marker-alt"></i>&nbsp;&nbsp;Multiple Pincodes</p>
+                        <a href="" class="btn-blue-inverse">View Internship</a>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div id="part-time-jobs" class="intern-hide">
+            <div class="container">
+                <div class="col-md-4 col-sm-6 items">
+                    <a href="">
+                        <figure><img src="swiggy.png" alt="zomato"></figure>
+                        <h1>Data Analysis For Swiggy</h1>
+                        <h6>Earn Upto 500Rs to 2000Rs</h6>
+                        <p><i class="far fa-calendar-alt"></i>&nbsp;1-2 Weeks</p>
+                        <p><i class="fas fa-map-marker-alt"></i>&nbsp;&nbsp;Multiple Pincodes</p>
+                        <a href="" class="btn-blue-inverse">View Part Time Job</a>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div id="full-time-jobs" class="intern-hide">
+            <div class="container">
+                <div class="col-md-4 col-sm-6 items">
+                    <a href="">
+                        <figure><img src="swiggy.png" alt="zomato"></figure>
+                        <h1>Data Analysis For Swiggy</h1>
+                        <h6>Earn Upto 500Rs to 2000Rs</h6>
+                        <p><i class="far fa-calendar-alt"></i>&nbsp;1-2 Weeks</p>
+                        <p><i class="fas fa-map-marker-alt"></i>&nbsp;&nbsp;Multiple Pincodes</p>
+                        <a href="" class="btn-blue-inverse">View Full Time Job</a>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div id="quick-money" class="intern-hide">
+            <div class="container">
+                <div class="col-md-4 col-sm-6 items">
+                    <a href="">
+                        <figure><img src="swiggy.png" alt="zomato"></figure>
+                        <h1>Data Analysis For Swiggy</h1>
+                        <h6>Earn Upto 500Rs to 2000Rs</h6>
+                        <p><i class="far fa-calendar-alt"></i>&nbsp;1-2 Weeks</p>
+                        <p><i class="fas fa-map-marker-alt"></i>&nbsp;&nbsp;Multiple Pincodes</p>
+                        <a href="" class="btn-blue-inverse">View Job</a>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="applied-jobs" class="hide">
+        <div class="heading">
+            <h1>Applied Jobs</h1>
+        </div>
+    </section>
+
+    <section id="selected-jobs" class="hide">
+        <div class="heading">
+            <h1>Selected Jobs</h1>
+            <p>Note: It is always best to reply as soon as possible if you recieve any update from the
+                company.<br>Communicate in a professional manner may help you build an everlasting bond with your
+                employer.</p>
+        </div>
+    </section>
+
+    <section id="profile" class="hide">
+        <h1>Profile</h1>
+        <div class="profile-card">
+            <img src="https://vignette.wikia.nocookie.net/24wikia/images/9/91/Jack_Bauer_%28Day_9%29.jpg/revision/latest?cb=20140502045236"
+                alt="User" class="user-image">
+            <a href="/edit-profile" class="fas fa-edit"></a>
+            <h4><%=username%></h4>
+            <p><%=userprofession%></p>
+        </div>
+        <div class="profile-info">
+            <h6><span>Email: </span> <%=useremail%></h6>
+            <h6><span>Phone No.: </span> <%=mobile_no%></h6>
+            <h6><span>City: </span> <%=city%></h6>
+            <h6><span>State: </span> <%=state%></h6>
+        </div>
+
+    </section>
+    <script src="javascript/dashboard.js"></script>
+</body>
+
+</html>

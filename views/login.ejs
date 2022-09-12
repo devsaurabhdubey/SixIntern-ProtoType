@@ -1,0 +1,43 @@
+<%- include('partials/header'); -%>
+
+<body>
+    <!-- Custom Stylesheet -->
+    <link rel="stylesheet" href="css/signin_signup.css">
+    <label class="back-arrow"><a href="home"><i class="fas fa-arrow-circle-left"></i> </a></label>
+    <div class="container">
+        <div class="header">
+            <h2 class="login-h2">Sixinterns</h2>
+            <p class="login-p">Never Work For Free</p>
+        </div>
+        <form action="/login" method="POST" id="form" class="form">
+            <div class="form-control">
+                <label for="username">Email</label>
+                <input type="email" placeholder="Enter Email" id="email" name="email" required/>
+                <i class="fas fa-check-circle  fa-lg"></i>
+                <i class="fas fa-exclamation-circle  fa-lg"></i>
+                <small>Error message</small>
+            </div>
+            <div class="form-control">
+                <label for="username">Password</label>
+                <input type="password" placeholder="Password" id="password" name="password" required/>
+                <i class="fas fa-check-circle  fa-lg"></i>
+                <i class="fas fa-exclamation-circle  fa-lg"></i>
+                <small>Error message</small>
+            </div>
+
+            <button type="submit">Log In</button>
+            <p>Do not have an account? <a href="register">Register</a></p>
+        </form>
+
+
+        <div class="separator">Or</div>
+
+        <a class="google-signin" href="/auth/google" role="button">
+            <i class="fab fa-google"></i>&nbsp;&nbsp;Continue with google
+        </a>
+    </div>
+    <!-- Custom Js -->
+    <script src="javascript/login.js"></script>
+</body>
+
+</html>

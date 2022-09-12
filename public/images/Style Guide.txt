@@ -1,0 +1,28 @@
+Font Guide:
+Headings: Acumin Pro - 50px
+Sub-Headings: Roboto - 40px
+Sub-Heading(Secondary): Roboto-30px
+Intermidiate Texts: Roboto-22px (Like Back, Quotes, etc)
+Paragraph: Roboto-20px
+
+
+Color Guide:
+Primary Color
+Blue- #35268A (Use in Buttons)
+Dark Blue- #35268A (Use for Heading Text)(Eg: What we do? Our Valuable Partners etc)
+[Note: In adobeXd file I have used different blue sometimes, ignore that use this specification instead)
+Hover Blue: #271A6F(For Hovering Effect)
+
+Secondary Color:
+Yellow:#FFD800 
+Hover Yellow: #EEC900 (For Hovering Effect in Buttons)
+
+
+Miscellaneous:
+Imp-
+1.Drop Shadow
+  Drop Shadow Color: #000000 [Black]
+  Drop Shadow Axis: 0  0 (x y)
+  Drop Shadow Spread: 20
+
+2.Footer Color: #231860(Heavy Blue)

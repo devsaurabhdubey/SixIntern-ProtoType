@@ -1,0 +1,33 @@
+{
+  "name": "sixinterns-website",
+  "version": "1.0.0",
+  "description": "Sixinterns is a PAN India outsourcing solution, driving business development and research of growing businesses through a  concept of ‘Crowdsourcing in Outsourcing’ which deals with the huge student community of UG/PG programs in India",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "six-interns",
+    "internship",
+    "work-from-home",
+    "work",
+    "part-time"
+  ],
+  "author": "Copyright © 2020 Sixinterns | Powered by Sixinterns",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "connect-flash": "^0.1.1",
+    "dotenv": "^8.2.0",
+    "ejs": "^3.1.2",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "lodash": "^4.17.15",
+    "mongoose": "^5.9.13",
+    "mongoose-findorcreate": "^3.0.0",
+    "passport": "^0.4.1",
+    "passport-google-oauth20": "^2.0.0",
+    "passport-local": "^1.0.0",
+    "passport-local-mongoose": "^6.0.1"
+  }
+}

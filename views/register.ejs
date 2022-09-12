@@ -1,0 +1,48 @@
+<%- include('partials/header'); -%>
+<body>
+    <!-- Custom Stylesheet -->
+    <link rel="stylesheet" href="css/signin_signup.css">
+    <label class="back-arrow"><a href="home"><i class="fas fa-arrow-circle-left"></i> </a></label>
+    <div class="container">
+        <div class="header">
+            <h2>Create Account</h2>
+        </div>
+        <form id="form" class="form" action="/register" method="POST">
+            <div class="form-control">
+                <label for="username">Username</label>
+                <input type="text" placeholder="FirstName LastName" id="username" name="username" required>
+                <i class="fas fa-check-circle fa-lg"></i>
+                <i class="fas fa-exclamation-circle fa-lg"></i>
+                <small>Error message</small>
+            </div>
+            <div class="form-control">
+                <label for="username">Email</label>
+                <input type="email" placeholder="forexample@gmail.com" id="email" name="email" required>
+                <i class="fas fa-check-circle  fa-lg"></i>
+                <i class="fas fa-exclamation-circle  fa-lg"></i>
+                <small>Error message</small>
+            </div>
+            <div class="form-control">
+                <label for="username">Password</label>
+                <input type="password" placeholder="Password" id="password" name="password" required>
+                <i class="fas fa-check-circle  fa-lg"></i>
+                <i class="fas fa-exclamation-circle  fa-lg"></i>
+                <small>Error message</small>
+            </div>
+            <div class="form-control">
+                <label for="username">Enter Password Again</label>
+                <input type="password" placeholder="Password" id="re_password" required>
+                <i class="fas fa-check-circle  fa-lg"></i>
+                <i class="fas fa-exclamation-circle  fa-lg"></i>
+                <small>Error message</small>
+            </div>
+            <button type="submit">Create Account</button>
+            <p>Already have an account? <a href="login">Log In</a></p>
+        </form>
+
+    </div>
+    <!-- Custom Js -->
+    <script src="javascript/register.js"></script>
+</body>
+
+</html>

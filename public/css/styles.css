@@ -1,0 +1,192 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+.acumin {
+    font-family: acumin-pro, sans-serif;
+}
+
+/* Transition Fade. This gives a smooth transition effect to all elements used in this file */
+*,
+*::before,
+*::after,
+*:hover {
+    transition: all 0.2s ease-in-out;
+}
+
+/* Links */
+a {
+    text-decoration: none;
+    color: white;
+}
+a:hover,
+a:active,
+a:visited {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Buttons */
+.btn-blue-inverse{
+    border: 2px solid #35268A;
+    background-color: transparent;
+    border-radius: 7px;
+    padding: 10px 16px;
+    margin-top: 20px;
+    color: #35268A;
+    width: 200px;
+    font-size: 18px;
+}
+
+.btn-blue-inverse:hover{
+    background-color: #35268A;
+    color: white;
+    transition: all 0.01s ease-in;
+}
+
+.btn-invert{
+    color:white;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 7px;
+    font-size: 18px;
+    padding: 8px 10px;
+    transition: none;
+}
+.btn-invert:hover{
+    background-color: white;
+    color:black;
+    transition: none;
+}
+
+.btn-blue {
+    background-color: #35268A;
+    padding: 18px 40px 18px 40px;
+    margin: 18px 20px;
+    font-weight: 500;
+    width: 21.2rem;
+    border-radius: 7px;
+    color: white;
+    border: none;
+    font-size: 22px;
+}
+.btn-blue:hover {
+    background-color: #271A6F;
+}
+
+.btn-yellow {
+    background-color: #FFD800;
+    padding: 18px 40px 18px 40px;
+    border-radius: 7px;
+    font-weight: 500;
+    color: black;
+    border: none;
+    font-size: 22px;
+}
+.btn-yellow:hover {
+    background-color: rgb(221, 188, 2);
+}
+
+.btn-white {
+    background-color: white;
+    padding: 18px 40px 18px 40px;
+    font-weight: 500;
+    border-radius: 7px;
+    color: black;
+    border: none;
+    margin: 0 20px;
+    font-size: 22px;
+}
+.btn-white:hover {
+    background-color: rgb(223, 223, 223);
+}
+
+/* Navbar */
+
+.navbar-brand {
+    margin: 0  0 0 5rem;
+    padding: 0;
+}
+
+header .btn-invert{
+    position: absolute;
+    right: 5rem;
+    top: 30px
+}
+
+@media screen and (max-width:990px){
+    .navbar-brand{
+        margin:0 0 0 20px;
+    }
+
+    header .btn-invert{
+        position: absolute;
+        right: 20px;
+        top: 30px
+    }
+
+}
+
+
+/* Footer */
+
+footer div>div{
+    margin-top:25px;
+}
+#footer{
+    background-color: #231860;
+    height: fit-content;
+    padding: 50px;
+    color:white;
+}
+
+ul{
+    padding: 0;
+}
+ul li{
+    list-style: none;
+}
+
+#footer p{
+    margin:0;
+    padding:0;
+    width: fit-content;
+}
+
+address{
+    width: fit-content;
+}
+
+.form-footer input[type="text"],
+.form-footer input[type="email"]{
+    padding:0 0 0 15px;
+    margin:10px 0 0 0 ;
+    height: 20px;
+    width: 250px;
+    font-size: 16px;
+    font-weight: lighter;
+    background: transparent;
+    color:white;
+    border-radius:7px;
+    border: 2px solid white;
+}
+
+
+.form-footer input[type="submit"]{
+    background-color:white ;
+    margin-top: 10px;
+    font-weight: 400;
+    color:#35268A;
+    border:none;
+    border-radius: 7px;
+    padding:6px 12px;
+}
+
+.form-footer ::placeholder{
+    color:rgba(255, 255, 255, 0.5);
+    font-size: 16px;
+}

@@ -1,0 +1,218 @@
+@import url("../css/styles.css");
+
+
+/* Landing */
+
+#landing{
+    background: #1C134A fixed no-repeat;
+    height: fit-content;
+}
+
+.top-image{
+    opacity: 0.4;
+    position: absolute;
+    top: 5rem;
+    right: 0;
+    border: 5px;
+    width: 600px;
+    height: 530px;
+    border-radius: 7px;
+}
+
+.heading-box{
+    color: white;
+    text-align: center;
+
+}
+
+.heading-box h1{    
+    font-size: 50px;
+    margin: 8rem auto;
+    text-align: center;
+    display: block;
+    z-index: 2;
+}
+
+.sub-text p{
+    width: 50%;
+    margin: -100px auto;
+    display: block;
+}
+
+.comp-text p{
+    font-size:12px;
+    margin: 4rem 0 0 6rem;
+    text-align: left;
+    width: fit-content;
+    padding: 25px;
+    background-color: #35268A;
+}
+
+
+/* Section2 */
+#section2 .row{
+    margin-top: 25px;  
+}
+
+#section2 .row a{
+    color: #35268A;
+}
+#section2 .row a:hover{
+    font-weight: bold;
+    transition: all 0.4 ease-in-out;
+}
+
+/* Section3 */
+
+#section3 h3{
+    color: #35268A;
+    font-size: 30px;
+    font-weight: 400;
+    margin: 40px 0 15px 0;
+}
+
+/* Section4 */
+.num{
+    margin: 0%;
+
+    font-size: 60px;
+    color: rgb(0, 0, 0,0.3);
+    opacity: 0.6;
+}
+
+.tt{
+    margin: 0%;
+
+    font: 'Roboto', cursive;
+    font-size: 18px;
+    color: black;
+}
+
+.work-head{
+    font-size: 30px;
+    font-weight: 400;
+    color:#35268A;
+    margin: 50px 0 15px 0;
+}
+
+/* Section5 */
+
+
+#section5{
+    margin-top: 55px;
+}
+
+#section5 .container img{
+    object-fit: cover;
+    object-position: center;
+    transition: all 0.4s ease-in-out;
+}
+
+#section5 .container img:hover{
+    transform: scale(1.1);
+}
+
+#section5 h6{
+    font-weight: 100;
+    font-size: 14px;
+    margin: 15px;
+}
+
+#section5 h3{
+    font-weight: 400;
+    font-size: 30px;
+    color: #35268A;
+}
+
+.t-face{
+    height: 350px;
+    width: 220px;
+    margin: 25px 25px 0 25px;
+}
+
+.img-text{
+    margin-top:-10px 10px 10px 10px;
+    font-size: 20px;
+}
+
+
+/* Section6 */
+
+.t-brand h2{
+    margin: 70px auto 50px auto;
+    font-size: 30px;
+    color: #35268A;
+    font-weight: 400;
+}
+
+.brand-img{
+    width: 200px;
+    height: 120px;
+    display: block;
+    margin:0 auto;
+}
+
+/* Miscellaneous */
+
+.misc h3{
+    font-size:30px;
+    font-weight: 400;
+    color: #35268A;
+    margin-top: 50px;
+}
+.misc .misc-text h3{
+    margin-top: 40px;
+    font-size:60px;
+    font-weight: 400;
+    color: rgb(68, 49, 175);
+}
+
+.misc .misc-text h4{
+    font-size: 22px;
+    font-weight: lighter;
+    margin-top: 20px;
+}
+
+/* start-Project */
+#start-proj{
+    margin-top: 50px;
+    background-image: url(../images/pathImages/about-us-path.png);
+    background-repeat: no-repeat;
+    height:fit-content;
+}
+
+#start-proj h2{
+    font-size: 40px;
+    font-size: bolder;
+    margin-top: 25rem;
+    margin-left: 10rem;
+    margin-bottom: 25px;
+    color:#FFD800;
+}
+
+#start-proj h5{
+    color:white;
+    font-weight: 400;
+    font-size:22px;
+    margin-left: 10rem;
+}
+
+#start-proj p{
+    font-size: 22px;
+    font-weight: lighter;
+    margin-left: 10rem;
+    color:white;
+}
+
+#start-proj button{
+    padding: 10px 16px;
+    margin-left: 10rem;
+    font-size: 18px;
+    margin-bottom: 3rem;
+}
+
+/* Footer */
+
+.form-footer input[type="text"], .form-footer input[type="email"]{
+    min-height: 40px;
+}

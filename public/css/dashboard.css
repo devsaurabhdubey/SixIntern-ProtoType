@@ -1,0 +1,313 @@
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #eaedf3;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Js classes */
+
+.hide{
+    /* To Change the Content of SideMenu */
+    display: none;
+}
+
+.intern-hide{
+/* To Change the Content of Home Page according to Internships */
+    display: none;
+}
+
+
+/* SideMenu */
+#sideMenu{
+    background-color: #302d43;   
+    width:280px;
+    position: fixed;
+    bottom: 0;
+    top: 0;
+}
+
+nav{
+    padding-top: 40px;
+}
+#sideMenu nav h1{
+    color:rgba(255, 255, 255, 0.8);
+    margin-left: 30px;
+    font-weight: 400;
+}
+
+#sideMenu nav p{
+    padding-left: 30px;
+    color:rgba(255, 255, 255, 0.5);
+    margin-bottom: 20px;
+}
+
+nav hr{
+    background-color:rgba(255, 255, 255, 0.2);
+    height: 2px;
+    width: 80%;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+nav i {
+    margin-right: 20px;
+}
+
+#sideMenu a{
+    text-decoration: none;
+    color:#ffffffdc;
+    font-weight: 400;
+    display: block;
+    padding:15px 30px;
+    transition: all 0.3s ease-in-out;
+}
+
+#sideMenu .active{
+    background: #282639;
+    border-left: 5px solid #FFD800;
+    padding-left: 25px;
+    color: rgb(236, 201, 0);
+} 
+
+#sideMenu a:hover{
+    background-color: #282639;
+    border-left: 5px solid #FFD800;
+}
+
+
+/* Id:Home
+   Internship Page
+*/
+
+h1{
+    margin-left: 400px ;
+}
+h2{
+    margin-left: 400px;
+}
+
+.heading h1{
+    color: #35268A;
+    margin-left: 20rem;
+    margin-top: 40px;
+    margin-bottom: 0;
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.heading p{
+    margin-left: 20rem;
+    margin-top: 5px;
+    margin-bottom: 40px;
+    opacity: 0.5;
+}
+
+.intern-nav{
+    margin-left: 280px;
+}
+
+.intern-nav hr{
+   border: none;
+   border-bottom: 4px solid rgba(0, 0, 0, 0.08);
+   border-radius: 5px;
+   margin-top: 3px;
+   position: relative;
+   right: 80px;
+   width: 80%;
+}
+
+.intern-nav a{
+    margin-left: 80px;
+    font-size: 20px;
+    color: #35268A;
+    text-decoration: none;
+    padding-bottom: 6px;   
+} 
+
+.intern-nav a:hover{
+    border-bottom: 4px solid #35268A;
+}
+
+.job-active{
+    border: none;
+    border-bottom: 4px solid #35268A;   
+}
+
+/* Display Card Style of Internships, Part time Jobs, Full time jobs and quick money*/
+
+.container{
+    margin-top: 50px;
+    margin-left: 20rem;
+}
+
+.items{
+    display: inline-block;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    background-color: rgb(245, 245, 245);
+    padding: 30px;
+    border: 1px solid rgb(0, 0, 0, 0.1);
+    width: fit-content;
+    transition: all 0.08s ease-in;
+}
+
+.items figure{
+    width: 100px;
+    height: 100px;
+    object-position: center;
+}
+
+.items figure img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+.items:hover{
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.08);
+}
+
+.items a:hover{
+    text-decoration: none;
+}
+
+.items h1{
+    color: black;
+    margin: 0 0 10px 0;
+    font-size: 25px;
+    font-weight: 400;
+}
+.items h6{
+    color: black;
+    font-weight: 300;
+    margin: 10px 0 40px 0;
+}
+
+.items p{
+    color:black;
+    font-weight: 300;
+    margin: 0 0 8px 0;
+}
+
+.items i{
+    color: #35268A;
+    margin-right: 10px;
+}
+
+.btn-blue-inverse{
+    text-align: center;
+    font-size: 20px;
+    display: block;
+    border: 2px solid #35268A;
+    background-color: transparent;
+    padding: 10px 16px;
+    color: #35268A;
+    text-decoration: none;
+    margin-top: 40px;
+    border-radius: 7px;
+}
+
+.btn-blue-inverse:hover{
+    background-color: #35268A;
+    color: white;
+    /* border: 2px solid #35268A; */
+}
+
+
+
+/* #profile: User Area */
+
+#profile h1{
+    margin-left: 20rem;
+    margin-top: 2.5rem;
+    font-weight: 400;
+    color: #35268A;
+}
+
+.profile-card{
+    display: inline-block;
+    background-color: white;
+    margin-left: 20rem;
+    margin-top: 2.5rem;
+    width: fit-content;
+    padding: 50px 70px;
+    border: none;
+    border-radius: 7px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.01);
+}
+
+.profile-card img{
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    border: 1px solid black;
+}
+
+.user-image{
+    display: block;
+    margin: auto;
+    object-fit: cover;
+    object-position: center;
+    height: 100%;
+    width: 100%;
+    
+}
+
+.profile-card a{
+    position: relative;
+    bottom: 12rem;    
+    left: 14rem;
+    color: black;
+    opacity: 0.3;
+}
+
+.profile-card h4{
+    color: #35268A;
+    font-size: 22px;
+    font-weight: 400;
+    text-align: center;
+    margin: 25px auto 10px auto;
+}
+
+.profile-card p{
+    margin-top: 0;
+    text-align: center;
+    opacity: 0.8;    
+}
+
+.profile-info{
+    display: inline-block;
+    background-color: white;
+    margin-left: 40px;
+    margin-top: 40px;
+    vertical-align: top;
+    width: fit-content;
+    padding: 25px;
+    border: none;
+    border-radius: 7px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.01);
+
+}
+
+.profile-info h6{
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    font-weight: lighter;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 2;
+}
+
+.profile-info h6 span{
+    color: #35268A;
+}

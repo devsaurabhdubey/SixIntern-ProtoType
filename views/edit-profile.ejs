@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="/edit-profile" method="POST">
+        <input type="text" placeholder="UserName" name="username" value="<%=username%>">
+        <input type="text" placeholder="Profession" name="profession" value="<%=profession%>">
+        <input type="text" placeholder="Email" disabled name="email" value="<%=useremail%>">
+        <input type="text" placeholder="Phone No." name="mobile_no" value="<%=mobile_no%>">
+        <input type="text" placeholder="City" name="city" value="<%=city%>">
+        <input type="text" placeholder="State" name="state" value="<%=state%>">
+        <input type="submit" value="Submit">
+    </form>
+</body>
+
+</html>

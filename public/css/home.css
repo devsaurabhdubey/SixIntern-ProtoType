@@ -1,0 +1,357 @@
+@import url("../css/styles.css");
+
+/* Landing Page */
+#landing {
+    min-height: 754px;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+}
+
+.landing-image {
+    position: fixed;
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+    z-index: -35;
+}
+
+.overlay {
+    min-height: 754px;
+    z-index: -1;
+    background-color: rgba(14, 9, 41, 0.87);
+}
+
+/* Banner Text */
+#banner-text {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center;
+    color: white;
+}
+
+#banner-text article {
+    padding-top: 14rem;
+    margin: 0 auto 0 auto;
+    width: 100%;
+}
+
+.heading {
+    text-transform: uppercase;
+    font-size: 50px;
+}
+
+#banner-text p {
+    width: 700px;
+    font-weight: lighter;
+    margin: 25px auto 30px auto;
+}
+
+#banner-text img {
+    display: block;
+    width: 15px;
+    margin: 40px auto;
+}
+
+@media screen and (max-width: 1300px){
+    #banner-text p{
+        width: 90%;
+        margin: 25px auto 30px auto;
+    }
+}
+
+/* Section 2 */
+#section2 {
+    background-color: white;
+    padding: 40px;
+    position: relative;
+    
+}
+
+
+/* Part 1:--------------------
+   Newsletter Form */
+.input-card{
+    display:inline-block;
+    margin-top: -60px;
+    margin-left: 55px;
+    background-color: white;
+    width: 400px;
+    height: 500px;
+    border: 1px solid rgba(0, 0, 0, 0.055);
+    border-radius: 7px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.16);
+}
+
+.input-card h1{
+    font-size: 30px;
+    background-color: #231860 ;
+    color:white;
+    font-weight: lighter;
+    padding: 20px 20px;
+    margin: 3rem 0;
+}
+
+input[type="text"],input[type="email"]{
+    border: 2px solid #35268A;
+    font-size: 22px;
+    color: #35268A;
+    padding: 0 5px;
+    margin: 0 0 20px 20px;
+    min-height: 50px;
+    width: 300px;
+    
+}
+
+input[type="submit"].btn-yellow{
+    margin:0 20px;
+    padding: 12px 20px;
+
+
+}
+::placeholder{
+    color: rgba(53, 38, 138, 0.623);
+    font-size: 22px;
+}
+
+/* Part2:---------------
+   Partners */
+.valuable-partners h1{
+    font-family: acumin-pro, sans-serif;
+    margin: 30px 0 50px 0;
+    font-size: 35px;
+    text-align: left;
+    color: #35268A;
+    font-weight: bold;
+}
+.valuable-partners img{
+    width: 200px;
+    margin:0;
+    padding: 0;
+    align-items: center;
+    display: inline-block;
+}
+
+/* Responsive Media Queries */
+@media screen and (max-width: 1300px){
+    .valuable-partners{
+        margin-left: 100px;
+    }   
+    .valuable-partners img{
+        width: 150px;
+    }
+}
+@media screen and (max-width: 980px){
+
+     .valuable-partners h1{
+        text-align: center;
+    }
+     
+    .valuable-partners img{
+        width: 150px;
+    }
+}
+@media screen and (max-width: 980px){
+  .input-card{
+        margin: -60px 0 0 0;
+        width: 100%;
+        height: 450px;
+    }
+}
+
+/* Section3 */
+
+#section3{
+    background-color: white;
+    padding: 50px 105px;
+    text-align: center;
+}
+
+#section3 h1{
+    color: #35268A;
+    margin-bottom: 50px;
+    font-family: acumin-pro, sans-serif;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+#section3 img{
+    width:5rem;
+    margin-bottom: 25px;
+}
+
+#section3 .row{
+    box-shadow: 0 0 15px rgba(0,0,0,0.16);
+}
+
+.my-row{
+    padding: 50px;
+    border:1px solid rgba(0, 0, 0, 0.16);
+}
+
+/* Section 4 */
+#section4{
+    height: fit-content;
+    background-color: rgba(0, 0, 0, 0.7);
+    object-fit: cover;
+    overflow: hidden;
+    color:white;
+
+}
+#section4 h1{
+    text-align: center;
+    font-size: 35px;
+    font-weight: 500;
+    margin: 30px 0 20px 0;
+}
+#section4 .my-row{
+    padding: 50px;
+    text-align: center;
+}
+
+.my-col{
+    margin-bottom: 90px;
+}
+
+#section4 .my-col h4{
+    font-size: 25px;
+    margin: 10px 0;
+}
+
+#section4 .my-col p{
+    width: 90%;
+    margin: 0 auto 35px auto;
+}
+
+.yellow-border{
+    border-left: 2px solid white;
+}
+.yellow{
+    color:#FFD800;
+}
+.yellow-border a{
+    color:black;
+}
+
+
+/* Section 5 */
+
+#section5{
+    background-color: white;
+    height: fit-content;
+}
+
+#section5 h1{
+    font-size: 35px;
+    font-family: acumin-pro, sans-serif;
+    color: #35268A;
+    text-align: center;
+    font-weight: 600;
+    padding-top: 35px;
+}
+.carousel-contain{
+    background-image: white;
+    height: fit-content;
+}
+
+.carousel-card{
+    width: 50%;
+    margin: 50px auto;
+    height: fit-content;
+    padding: 50px;
+    border: 1px solid rgba(0, 0, 0, 0.055);
+    box-shadow: 0 0 20px rgba(0, 0, 0,0.16);
+}
+.testimonial-image{
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    width: 150px;
+    height: 200px;
+    border-radius: 7px;
+}
+
+.testimonial-text h5{
+    margin-top: 15%;
+    font-size: 22px;
+    color:#35268A;
+    font-weight: lighter;
+    line-height: 1.2rem;
+}
+
+
+
+
+
+/* Mobile media queries */
+
+@media screen and (max-width: 450px){
+    #banner-text h1{
+        margin-top: -150px;
+        font-size: 35px;
+    }
+
+    .btn-blue{
+        display: block;
+        width: 80%;
+        font-size: 18px;
+        padding: 12px 16px;
+        margin: 50px auto 0 auto;
+    }
+    .btn-white{
+        display: block;
+        width: 80%;
+        font-size: 18px;
+        padding: 12px 16px;
+        margin: 20px auto;
+    }
+    .input-card input[type="text"],.input-card input[type="email"]{
+        width: 230px;
+    }
+    .valuable-partners h1{
+        display: block;
+        margin: 40px auto 20px -100px;
+    }
+    .valuable-partners .row{
+        margin-left: -70px;
+        max-width: fit-content;
+    }
+    #section3{
+        padding: 10px;
+        
+    }
+    #section3 .my-row{
+        display: block;
+        margin: 0 auto;
+        width: 90%;
+        padding: 20px;
+    }
+    .my-col{
+        display: block;
+        margin: 20px auto;
+        width: 90%;
+    }
+    #section4 .btn-blue, #section4 .btn-yellow{
+        padding: 10px 16px;
+        width: 150px;
+        font-size: 14px;
+    }
+
+    #section5 h1{
+        width: 90%;
+        display: block;
+        margin: 30px auto;
+    }
+    .carousel-card{
+        width: 90%;
+    }
+    .carousel-card img{
+        display: block;
+    }
+    .testimonial-text{
+        display: block;
+        margin-top: 220px;
+    }
+
+}

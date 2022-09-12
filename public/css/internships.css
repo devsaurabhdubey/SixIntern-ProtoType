@@ -1,0 +1,98 @@
+@import url("../css/styles.css");
+
+/* Landing */
+#landing{
+    background-color: #231860;
+}
+
+
+/* Internships-Section2 */
+.hr-bar{
+    border-bottom: 4px solid rgba(105, 105, 105, 0.12);
+    margin-bottom: 5rem;
+}
+
+#op1,#op2,#op3,#op4{
+    border: none;
+    background-color: transparent;
+    color: #35268A;
+}
+
+.col label{
+    margin: 3rem;
+    display: inline-block;
+    cursor: pointer;
+}
+.col label i{
+    color: #35268A;
+}
+
+.type{
+    list-style: none;
+    display: flex;
+    color: #35268A;
+    margin: -4.5rem auto 0 auto;
+}
+
+ul{
+    width: fit-content;
+
+}
+.type li{
+    display: inline;
+    margin: 0 2rem;
+    font-size: 20px;
+}
+
+.type>li button:hover{
+    border-bottom: 4px solid #35268A !important;
+    transition: none;
+    padding-bottom: 2px;
+}
+
+.type .active{
+    border-bottom: 4px solid #35268A !important;
+    transition: none;
+    padding-bottom: 2px;
+}
+
+.hide{
+    display: none;
+}
+
+
+/* Main Intenship Section */
+.intern-list-items{
+    border: 1px solid rgba(0, 0, 0, 0.12);
+    padding: 30px;
+}
+
+.intern-list-items:hover{
+    box-shadow: 0 0 15px rgba(0, 0, 0,0.1);
+}
+
+
+.intern-list-items img{
+    width: 200px;
+    height: 100px;
+}
+
+.intern-list-items h1{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.intern-list-items h6{
+    font-weight: lighter;
+    margin: 10px 0 30px 0;
+}
+
+.intern-list-items i{
+    color: #35268A;
+}
+
+.intern-list-items p{
+    font-size: 14px;
+    line-height: 1;
+    font-weight: lighter;
+}
